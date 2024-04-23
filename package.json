@@ -1,0 +1,36 @@
+{
+  "name": "kiit-sss-api",
+  "version": "1.0.0",
+  "description": "An express API that scrapes KIIT SAP SSS portal",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "pretty": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikat0511/KIIT-SSS-API.git"
+  },
+  "author": "saikat0511",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/saikat0511/KIIT-SSS-API/issues"
+  },
+  "homepage": "https://github.com/saikat0511/KIIT-SSS-API#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.8.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  },
+  "engines": {
+    "node": "18.16.1"
+  }
+}
